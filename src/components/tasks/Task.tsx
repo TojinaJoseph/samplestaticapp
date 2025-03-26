@@ -21,7 +21,7 @@ function Task() {
   </thead>
   <tbody>
     <tr>
-      <td>Otto</td>
+      <td>{message}</td>
       <td>@mdo</td>
     </tr>
   </tbody>
