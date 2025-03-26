@@ -6,10 +6,7 @@ function Task() {
     console.log(message)
     useEffect(() => {
       fetch("https://javscriptfunction.azurewebsites.net/api/getDbdata?")
-      .then(response => {
-        console.log("Raw Response:", response); // Logs the full response object
-        return response.json();
-      })
+      .then(response => response.json())
       .then(data => setMessage(data.message))
       .catch(error => console.error("Error fetching API:", error));
     }, []);
