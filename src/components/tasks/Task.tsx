@@ -3,7 +3,7 @@ import "./Task.css";
 
 function Task() {
   const [message, setMessage] = useState([]);
-
+    console.log(message)
     useEffect(() => {
       fetch("https://javscriptfunction.azurewebsites.net/api/getDbdata?")
       .then(response => response.json())
