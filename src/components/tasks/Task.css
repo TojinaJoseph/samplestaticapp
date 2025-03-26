@@ -1,0 +1,9 @@
+.task-container{
+    /* margin-top: 100px; */
+    max-width: 400px; /* Restrict form width */
+    margin: 50px auto; 
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
